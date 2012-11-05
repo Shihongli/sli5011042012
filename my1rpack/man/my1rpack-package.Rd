@@ -3,39 +3,30 @@
 \alias{my1rpack}
 \docType{package}
 \title{
-What the package does (short line)
-~~ package title ~~
+  Homework 2
 }
 \description{
-More about what it does (maybe more than one line)
-~~ A concise (1-5 lines) description of the package ~~
+  The package includes a function generating a plot for the specific function in a certain range and a function generating statistics of number of medals for each country
 }
 \details{
 \tabular{ll}{
 Package: \tab my1rpack\cr
 Type: \tab Package\cr
 Version: \tab 1.0\cr
-Date: \tab 2012-11-05\cr
-License: \tab What license is it under?\cr
+Date: \tab 2012-11-01\cr
+License: \tab GPL-3\cr
 }
-~~ An overview of how to use the package, including the most important functions ~~
 }
 \author{
-Who wrote it
-
-Maintainer: Who to complain to <yourfault@somewhere.net>
-~~ The author and/or maintainer of the package ~~
+  Shihong Li email<sli50@jhu.edu>
 }
 \references{
-~~ Literature or other references for background information ~~
+  2012 Fall semester 550400 Homework 2 Description
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~
-~~ documentation directory ~~
 \keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
+
 \examples{
-~~ simple examples of the most important functions ~~
+require(my1rpack)
+problem1('bmw1series', dnorm, c(-5, 5), 10, TRUE)
+problem2
 }
