@@ -1,1 +1,1 @@
-Package:Type: PackageTitle:Version: 1.0Date: 2012-11-05Author:Maintainer:Description:License: GPL-3
+Package:Type: PackageTitle:Version: 1.0Date: 2012-11-05Author: Shihong LiMaintainer: Shihong LiDescription: The package includes a function generating a plot for the specific function in a certain range and a function generating statistics of number of medals for each country.License: GPL-3
